@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/react-is",
-  "version": "16.13.1",
+  "version": "0.0.0-unpublished.0",
   "description": "Repo to auto-esm-bundle react-is",
   "main": "index.js",
   "module": "esm/index.js",
