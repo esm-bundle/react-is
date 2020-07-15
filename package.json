@@ -1,7 +1,7 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.0",
-  "description": "Repo to test esm-bundle's automatic publishing",
+  "name": "@esm-bundle/react-is",
+  "version": "16.13.1",
+  "description": "Repo to auto-esm-bundle react-is",
   "main": "index.js",
   "module": "esm/index.js",
   "type": "module",
@@ -27,16 +27,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/react-is.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/react-is/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/react-is#readme",
   "devDependencies": {
-    "autopublish-template": "20.0.0",
-    "esm-bundle-scripts": "1.2.0"
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "esm-bundle-scripts": "1.2.0",
+    "react-is": "^16.13.1"
   }
 }
