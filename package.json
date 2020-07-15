@@ -2,7 +2,7 @@
   "name": "@esm-bundle/react-is",
   "version": "0.0.0-unpublished.0",
   "description": "Repo to auto-esm-bundle react-is",
-  "main": "react-is.production.min.js",
+  "main": "esm/react-is.production.min.js",
   "module": "esm/react-is.production.min.js",
   "type": "module",
   "scripts": {
