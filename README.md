@@ -10,15 +10,31 @@ Upstream repo at https://www.npmjs.com/package/react-is
 
 ## JS Delivr
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/react-is/esm/index.js
+### Production
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/react-is/system/index.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/react-is/esm/react-is.production.min.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/react-is/system/react-is.production.min.js
+
+### Development
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/react-is/esm/react-is.development.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/react-is/system/react-is.development.js
 
 ## Unpkg
 
-https://unpkg.com/@esm-bundle/react-is/esm/index.js
+### Production
 
-https://unpkg.com/@esm-bundle/react-is/system/index.js
+https://unpkg.com/@esm-bundle/react-is/esm/react-is.production.min.js
+
+https://unpkg.com/@esm-bundle/react-is/system/react-is.production.min.js
+
+### Development
+
+https://unpkg.com/@esm-bundle/react-is/esm/react-is.development.js
+
+https://unpkg.com/@esm-bundle/react-is/system/react-is.development.js
 
 ## Npm
 
