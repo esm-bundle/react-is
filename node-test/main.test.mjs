@@ -1,10 +1,10 @@
 describe("@esm-bundle/react-is", () => {
-  it("can load the esm bundle without dying", () => {
-    return import("../esm/index.js");
+  it("can load the production esm bundle without dying", () => {
+    return import("../esm/react-is.production.min.js");
   });
-  it(`API exports are defined`, async () => {
+  it(`API exports are defined in production bundle`, async () => {
     const { default: ReactIs, isValidElementType, Element } = await import(
-      "../esm/index.js"
+      "../esm/react-is.production.min.js"
     );
     expect(ReactIs.isValidElementType).not.to.equal(undefined);
     expect(isValidElementType).not.to.equal(undefined);
