@@ -1,6 +1,6 @@
 # react-is
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/react-is.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/react-is) [![build status](https://travis-ci.com/esm-bundle/react-is.svg?branch=master)](https://travis-ci.com/esm-bundle/react-is) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react-is/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react-is)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/react-is.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/react-is) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react-is/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react-is)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
