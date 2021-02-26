@@ -7438,7 +7438,7 @@ specifiers:
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
   mocha: 8.3.0
-  pinst: ^2.1.6
+  pinst: 2.1.6
   prettier: 2.2.1
   pretty-quick: 3.1.0
   react-is: 17.0.1
