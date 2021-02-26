@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/react-is",
-  "version": "17.0.2",
+  "version": "17.0.3-fix.0",
   "description": "Repo to auto-esm-bundle react-is",
   "main": "esm/react-is.production.min.js",
   "module": "esm/react-is.production.min.js",
@@ -15,7 +15,8 @@
     "format": "prettier --write .",
     "release": "release-it",
     "postinstall": "husky install",
-    "prepublishOnly": "pnpm run build"
+    "postpublish": "pinst --enable",
+    "prepublishOnly": "pnpm run build && pinst --disable"
   },
   "husky": {
     "hooks": {
@@ -46,6 +47,7 @@
     "karma-firefox-launcher": "2.1.0",
     "karma-jasmine": "4.0.1",
     "mocha": "8.3.0",
+    "pinst": "^2.1.6",
     "prettier": "2.2.1",
     "pretty-quick": "3.1.0",
     "react-is": "17.0.1",
