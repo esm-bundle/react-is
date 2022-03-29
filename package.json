@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/react-is",
-  "version": "17.0.1-fix.0",
+  "version": "18.0.0",
   "description": "Repo to auto-esm-bundle react-is",
   "main": "esm/react-is.production.min.js",
   "module": "esm/react-is.production.min.js",
