@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@rollup/plugin-node-resolve': 13.3.0
   '@rollup/plugin-replace': 4.0.0
-  concurrently: 7.1.0
+  concurrently: 7.2.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
   karma: 6.3.20
@@ -22,7 +22,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.46.0
   '@rollup/plugin-replace': 4.0.0_rollup@2.46.0
-  concurrently: 7.1.0
+  concurrently: 7.2.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.1
   karma: 6.3.20
@@ -393,7 +393,7 @@ packages:
       realpath-native: 2.0.0
       rimraf: 3.0.2
       slash: 3.0.0
-      strip-ansi: 6.0.0
+      strip-ansi: 6.0.1
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -1060,6 +1060,11 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /ansi-regex/5.0.1:
+    resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
+    engines: {node: '>=8'}
+    dev: true
+
   /ansi-regex/6.0.1:
     resolution: {integrity: sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==}
     engines: {node: '>=12'}
@@ -1389,7 +1394,7 @@ packages:
       camelcase: 5.3.1
       chalk: 3.0.0
       cli-boxes: 2.2.1
-      string-width: 4.2.0
+      string-width: 4.2.3
       term-size: 2.2.1
       type-fest: 0.8.1
       widest-line: 3.1.0
@@ -1403,7 +1408,7 @@ packages:
       camelcase: 6.2.0
       chalk: 4.1.2
       cli-boxes: 2.2.1
-      string-width: 4.2.0
+      string-width: 4.2.3
       type-fest: 0.20.2
       widest-line: 3.1.0
       wrap-ansi: 7.0.0
@@ -1729,15 +1734,15 @@ packages:
   /cliui/6.0.0:
     resolution: {integrity: sha512-t6wbgtoCXvAzst7QgXxJYqPt0usEfbgQdftEPbLL/cvv6HPE5VgvqCuAIDR0NgU52ds6rFwqrgakNLrHEjCbrQ==}
     dependencies:
-      string-width: 4.2.0
-      strip-ansi: 6.0.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
       wrap-ansi: 6.2.0
     dev: true
 
   /cliui/7.0.4:
     resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
     dependencies:
-      string-width: 4.2.0
+      string-width: 4.2.3
       strip-ansi: 6.0.0
       wrap-ansi: 7.0.0
     dev: true
@@ -1851,8 +1856,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/7.1.0:
-    resolution: {integrity: sha512-Bz0tMlYKZRUDqJlNiF/OImojMB9ruKUz6GCfmhFnSapXgPe+3xzY4byqoKG9tUZ7L2PGEUjfLPOLfIX3labnmw==}
+  /concurrently/7.2.0:
+    resolution: {integrity: sha512-4KIVY5HopDRhN3ndAgfFOLsMk1PZUPgghlgTMZ5Pb5aTrqYg86RcZaIZC2Cz+qpZ9DsX36WHGjvWnXPqdnblhw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -1860,10 +1865,11 @@ packages:
       date-fns: 2.17.0
       lodash: 4.17.21
       rxjs: 6.6.6
+      shell-quote: 1.7.3
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
       tree-kill: 1.2.2
-      yargs: 16.2.0
+      yargs: 17.5.0
     dev: true
 
   /configstore/5.0.1:
@@ -3561,8 +3567,8 @@ packages:
       mute-stream: 0.0.8
       run-async: 2.4.1
       rxjs: 6.6.6
-      string-width: 4.2.0
-      strip-ansi: 6.0.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
       through: 2.3.8
     dev: true
 
@@ -3581,8 +3587,8 @@ packages:
       ora: 5.4.1
       run-async: 2.4.1
       rxjs: 7.5.5
-      string-width: 4.2.0
-      strip-ansi: 6.0.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
       through: 2.3.8
       wrap-ansi: 7.0.0
     dev: true
@@ -5451,7 +5457,7 @@ packages:
       is-interactive: 1.0.0
       log-symbols: 4.1.0
       mute-stream: 0.0.8
-      strip-ansi: 6.0.0
+      strip-ansi: 6.0.1
       wcwidth: 1.0.1
     dev: true
 
@@ -5466,7 +5472,7 @@ packages:
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
-      strip-ansi: 6.0.0
+      strip-ansi: 6.0.1
       wcwidth: 1.0.1
     dev: true
 
@@ -5812,7 +5818,7 @@ packages:
     engines: {node: '>= 8.3'}
     dependencies:
       '@jest/types': 25.5.0
-      ansi-regex: 5.0.0
+      ansi-regex: 5.0.1
       ansi-styles: 4.3.0
       react-is: 16.13.1
     dev: true
@@ -6558,6 +6564,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /shell-quote/1.7.3:
+    resolution: {integrity: sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==}
+    dev: true
+
   /shelljs/0.8.4:
     resolution: {integrity: sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==}
     engines: {node: '>=4'}
@@ -6919,13 +6929,13 @@ packages:
       strip-ansi: 5.2.0
     dev: true
 
-  /string-width/4.2.0:
-    resolution: {integrity: sha512-zUz5JD+tgqtuDjMhwIg5uFVV3dtqZ9yQJlZVfq4I01/K5Paj5UHj7VyrQOJvzawSVlKpObApbfD0Ed6yJc+1eg==}
+  /string-width/4.2.3:
+    resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
     engines: {node: '>=8'}
     dependencies:
       emoji-regex: 8.0.0
       is-fullwidth-code-point: 3.0.0
-      strip-ansi: 6.0.0
+      strip-ansi: 6.0.1
     dev: true
 
   /string.prototype.trimend/1.0.4:
@@ -6971,6 +6981,13 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       ansi-regex: 5.0.0
+    dev: true
+
+  /strip-ansi/6.0.1:
+    resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
+    engines: {node: '>=8'}
+    dependencies:
+      ansi-regex: 5.0.1
     dev: true
 
   /strip-ansi/7.0.1:
@@ -7562,7 +7579,7 @@ packages:
     resolution: {integrity: sha512-NsmoXalsWVDMGupxZ5R08ka9flZjjiLvHVAWYOKtiKM8ujtZWr9cRffak+uSE48+Ob8ObalXpwyeUiyDD6QFgg==}
     engines: {node: '>=8'}
     dependencies:
-      string-width: 4.2.0
+      string-width: 4.2.3
     dev: true
 
   /wildcard-match/5.1.2:
@@ -7615,8 +7632,8 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       ansi-styles: 4.3.0
-      string-width: 4.2.0
-      strip-ansi: 6.0.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
     dev: true
 
   /wrap-ansi/7.0.0:
@@ -7624,7 +7641,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       ansi-styles: 4.3.0
-      string-width: 4.2.0
+      string-width: 4.2.3
       strip-ansi: 6.0.0
     dev: true
 
@@ -7796,7 +7813,7 @@ packages:
       require-directory: 2.1.1
       require-main-filename: 2.0.0
       set-blocking: 2.0.0
-      string-width: 4.2.0
+      string-width: 4.2.3
       which-module: 2.0.0
       y18n: 4.0.1
       yargs-parser: 18.1.3
@@ -7810,9 +7827,22 @@ packages:
       escalade: 3.1.1
       get-caller-file: 2.0.5
       require-directory: 2.1.1
-      string-width: 4.2.0
+      string-width: 4.2.3
       y18n: 5.0.5
       yargs-parser: 20.2.9
+    dev: true
+
+  /yargs/17.5.0:
+    resolution: {integrity: sha512-3sLxVhbAB5OC8qvVRebCLWuouhwh/rswsiDYx3WGxajUk/l4G20SKfrKKFeNIHboUFt2JFgv2yfn+5cgOr/t5A==}
+    engines: {node: '>=12'}
+    dependencies:
+      cliui: 7.0.4
+      escalade: 3.1.1
+      get-caller-file: 2.0.5
+      require-directory: 2.1.1
+      string-width: 4.2.3
+      y18n: 5.0.5
+      yargs-parser: 21.0.1
     dev: true
 
   /yeast/0.1.2:
