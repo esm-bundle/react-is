@@ -39,7 +39,7 @@
   "homepage": "https://github.com/esm-bundle/react-is#readme",
   "devDependencies": {
     "@rollup/plugin-node-resolve": "13.3.0",
-    "@rollup/plugin-replace": "4.0.0",
+    "@rollup/plugin-replace": "5.0.0",
     "concurrently": "7.4.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "8.0.1",
