@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@rollup/plugin-node-resolve': 13.3.0
   '@rollup/plugin-replace': 5.0.4
-  concurrently: 8.2.1
+  concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
   karma: 6.4.2
@@ -22,7 +22,7 @@ specifiers:
 devDependencies:
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.46.0
   '@rollup/plugin-replace': 5.0.4_rollup@2.46.0
-  concurrently: 8.2.1
+  concurrently: 8.2.2
   esm-bundle-scripts: 1.2.0
   husky: 8.0.3
   karma: 6.4.2
@@ -2092,8 +2092,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/8.2.1:
-    resolution: {integrity: sha512-nVraf3aXOpIcNud5pB9M82p1tynmZkrSGQ1p6X/VY8cJ+2LMVqAgXsJxYYefACSHbTYlm92O1xuhdGTjwoEvbQ==}
+  /concurrently/8.2.2:
+    resolution: {integrity: sha512-1dP4gpXFhei8IOtlXRE/T/4H88ElHgTiUzh71YUmtjTEHMSRS2Z/fgOxHSxxusGHogsRfxNq1vyAwxSC+EVyDg==}
     engines: {node: ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
