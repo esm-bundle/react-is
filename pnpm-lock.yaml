@@ -14,7 +14,7 @@ specifiers:
   pinst: 3.0.0
   prettier: 2.2.1
   pretty-quick: 4.0.0
-  react-is: 18.2.0
+  react-is: 18.3.0
   release-it: 17.2.0
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.46.0
@@ -33,7 +33,7 @@ devDependencies:
   pinst: 3.0.0
   prettier: 2.2.1
   pretty-quick: 4.0.0_prettier@2.2.1
-  react-is: 18.2.0
+  react-is: 18.3.0
   release-it: 17.2.0
   release-it-plugin-esm-bundle: 3.0.0_release-it@17.2.0
   rollup: 2.46.0
@@ -6676,8 +6676,8 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react-is/18.2.0:
-    resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+  /react-is/18.3.0:
+    resolution: {integrity: sha512-wRiUsea88TjKDc4FBEn+sLvIDesp6brMbGWnJGjew2waAc9evdhja/2LvePc898HJbHw0L+MTWy7NhpnELAvLQ==}
     dev: true
 
   /read-pkg-up/7.0.1:
