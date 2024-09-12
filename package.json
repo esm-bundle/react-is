@@ -40,7 +40,7 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "13.3.0",
     "@rollup/plugin-replace": "5.0.7",
-    "concurrently": "9.0.0",
+    "concurrently": "9.0.1",
     "esm-bundle-scripts": "1.2.0",
     "husky": "9.1.6",
     "karma": "6.4.4",
