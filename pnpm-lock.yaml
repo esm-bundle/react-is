@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@rollup/plugin-node-resolve': 15.3.1
+  '@rollup/plugin-node-resolve': 16.0.0
   '@rollup/plugin-replace': 6.0.2
   '@rollup/plugin-terser': 0.4.4
   concurrently: 9.1.0
@@ -20,7 +20,7 @@ specifiers:
   rollup: 2.79.2
 
 devDependencies:
-  '@rollup/plugin-node-resolve': 15.3.1_rollup@2.79.2
+  '@rollup/plugin-node-resolve': 16.0.0_rollup@2.79.2
   '@rollup/plugin-replace': 6.0.2_rollup@2.79.2
   '@rollup/plugin-terser': 0.4.4_rollup@2.79.2
   concurrently: 9.1.0
@@ -864,8 +864,8 @@ packages:
       rollup: 2.79.2
     dev: true
 
-  /@rollup/plugin-node-resolve/15.3.1_rollup@2.79.2:
-    resolution: {integrity: sha512-tgg6b91pAybXHJQMAAwW9VuWBO6Thi+q7BCNARLwSqlmsHz0XYURtGvh/AuwSADXSI4h/2uHbs7s4FzlZDGSGA==}
+  /@rollup/plugin-node-resolve/16.0.0_rollup@2.79.2:
+    resolution: {integrity: sha512-0FPvAeVUT/zdWoO0jnb/V5BlBsUSNfkIOtFHzMO4H9MOklrmQFY6FduVHKucNb/aTFxvnGhj4MNj/T1oNdDfNg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.78.0||^3.0.0||^4.0.0
