@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@rollup/plugin-node-resolve': 15.3.0
+  '@rollup/plugin-node-resolve': 15.3.1
   '@rollup/plugin-replace': 6.0.1
   '@rollup/plugin-terser': 0.4.4
   concurrently: 9.1.0
@@ -20,7 +20,7 @@ specifiers:
   rollup: 2.79.2
 
 devDependencies:
-  '@rollup/plugin-node-resolve': 15.3.0_rollup@2.79.2
+  '@rollup/plugin-node-resolve': 15.3.1_rollup@2.79.2
   '@rollup/plugin-replace': 6.0.1_rollup@2.79.2
   '@rollup/plugin-terser': 0.4.4_rollup@2.79.2
   concurrently: 9.1.0
@@ -860,12 +860,12 @@ packages:
       glob: 7.2.0
       is-reference: 1.2.1
       magic-string: 0.25.7
-      resolve: 1.20.0
+      resolve: 1.22.8
       rollup: 2.79.2
     dev: true
 
-  /@rollup/plugin-node-resolve/15.3.0_rollup@2.79.2:
-    resolution: {integrity: sha512-9eO5McEICxMzJpDW9OnMYSv4Sta3hmt7VtBFz5zR9273suNOydOyq/FrGeGy+KsTRFm8w0SLVhzig2ILFT63Ag==}
+  /@rollup/plugin-node-resolve/15.3.1_rollup@2.79.2:
+    resolution: {integrity: sha512-tgg6b91pAybXHJQMAAwW9VuWBO6Thi+q7BCNARLwSqlmsHz0XYURtGvh/AuwSADXSI4h/2uHbs7s4FzlZDGSGA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.78.0||^3.0.0||^4.0.0
@@ -891,7 +891,7 @@ packages:
       '@types/resolve': 0.0.8
       builtin-modules: 3.2.0
       is-module: 1.0.0
-      resolve: 1.20.0
+      resolve: 1.22.8
       rollup: 2.79.2
     dev: true
 
@@ -3353,7 +3353,7 @@ packages:
       function-bind: 1.1.2
       has-proto: 1.0.1
       has-symbols: 1.0.3
-      hasown: 2.0.1
+      hasown: 2.0.2
     dev: true
 
   /get-package-type/0.1.0:
@@ -3695,13 +3695,6 @@ packages:
   /has/1.0.3:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
     engines: {node: '>= 0.4.0'}
-    dependencies:
-      function-bind: 1.1.2
-    dev: true
-
-  /hasown/2.0.1:
-    resolution: {integrity: sha512-1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==}
-    engines: {node: '>= 0.4'}
     dependencies:
       function-bind: 1.1.2
     dev: true
@@ -4061,12 +4054,6 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       hasown: 2.0.2
-    dev: true
-
-  /is-core-module/2.2.0:
-    resolution: {integrity: sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==}
-    dependencies:
-      has: 1.0.3
     dev: true
 
   /is-data-descriptor/0.1.4:
@@ -6170,10 +6157,6 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /path-parse/1.0.6:
-    resolution: {integrity: sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==}
-    dev: true
-
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
@@ -6772,13 +6755,6 @@ packages:
 
   /resolve/1.1.7:
     resolution: {integrity: sha512-9znBF0vBcaSN3W2j7wKvdERPwqTxSpCq+if5C0WoTCyV9n24rua28jeuQ2pL/HOf+yUe/Mef+H/5p60K0Id3bg==}
-    dev: true
-
-  /resolve/1.20.0:
-    resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
-    dependencies:
-      is-core-module: 2.2.0
-      path-parse: 1.0.6
     dev: true
 
   /resolve/1.22.8:
