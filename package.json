@@ -51,7 +51,7 @@
     "prettier": "2.2.1",
     "pretty-quick": "4.2.2",
     "react-is": "18.3.1",
-    "release-it": "19.0.5",
+    "release-it": "19.0.6",
     "release-it-plugin-esm-bundle": "3.0.0",
     "rollup": "2.79.2",
     "@rollup/plugin-terser": "0.4.4"
